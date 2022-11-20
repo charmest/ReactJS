@@ -1,13 +1,16 @@
 import TitleComponent from './TitleComponent'
 import Description from './Description'
+import '../styles/Banner.css'
 import React from "react"
 
 function Banner() {
   return (
-    <React.Fragment>
-      <TitleComponent/>
-      <Description/>
-	</React.Fragment>
+	<div className="lmj-banner">
+    	<React.Fragment>
+      		<TitleComponent/>
+      		<Description/>
+		</React.Fragment>
+	</div>
     )
 }
 
